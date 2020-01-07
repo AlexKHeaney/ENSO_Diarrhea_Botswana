@@ -13,8 +13,11 @@ The El Nino-Southern Oscillation datasets analyzed during the current study are 
 #### Data_empty.xlsx 
 This file includes a data set with all publically available data (dates and ENSO indices) and empty columns for the diarrhea and environmental data that are not publically available.
 
+#### TRMM.nc
+This file contains rainfall data from the TRMM satellite for 0.25 degree grid cells across all of Southern Africa.
+
 #### Codebook.docx
 This file contains descriptions of each variable in the data_empty.xlsx data set. 
 
 #### Replication_main.R
-This file contains R code that was used to run analyses and generate figures. The only input to this code is the data_empty.xlsx file. Because diarrhea and environmental data is not publically available, readers will not be able to directly reproduce figures and results. Any questions about the code or data should be directed to Dr. Alexandra Heaney at akheaney@berkeley.edu. 
+This file contains R code that was used to run analyses and generate figures. The data inputs to this code are the data_empty.xlsx and TRMM.nc file. Because diarrhea and environmental data is not publically available, readers will not be able to directly reproduce figures and results. Any questions about the code or data should be directed to Dr. Alexandra Heaney at akheaney@berkeley.edu. 
