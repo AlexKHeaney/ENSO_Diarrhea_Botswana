@@ -11,10 +11,10 @@ The El Nino-Southern Oscillation datasets analyzed during the current study are 
 ### Files 
 
 #### Data_empty.xlsx 
-This file includes a data set that includes all publically available data (ENSO indices) and empty columns for the diarrhea and environmental data that is not publically available.
+This file includes a data set with all publically available data (dates and ENSO indices) and empty columns for the diarrhea and environmental data that are not publically available.
 
 #### Codebook.docx
-This file contains descriptions of each variable in the data set. 
+This file contains descriptions of each variable in the data_empty.xlsx data set. 
 
 #### Replication_main.R
-This file contains R code that was used to run all analyses and generate all figures in the analyses. The only input to this code is the data_empty.xlsx file. Unfortunately, because diarrhea and environmental data is not publically available, readers will not be able to directly reproduce figures and results. Any questions about the code can be directed to Dr. Alexandra Heaney at akheaney@berkeley.edu. 
+This file contains R code that was used to run analyses and generate figures. The only input to this code is the data_empty.xlsx file. Because diarrhea and environmental data is not publically available, readers will not be able to directly reproduce figures and results. Any questions about the code or data should be directed to Dr. Alexandra Heaney at akheaney@berkeley.edu. 
