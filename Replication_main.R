@@ -31,7 +31,7 @@ require(rasterVis)
 #####            Load Data                     ####
 ###################################################
 
-all_lag <- read.csv("~/Data_empty.csv") ## This data is not publically available. Contact the authors and the Botswana Ministry of Health to obtain diarrhea and meteorlogical data
+all_lag <- read.csv("~/Data_empty.xlsx") ## This data is not publically available. Contact the authors and the Botswana Ministry of Health to obtain diarrhea and meteorlogical data
 
 # Create Seasonal Datasets
 DJF <- all_lag[all_lag$Month %in% c(12,1,2),]
